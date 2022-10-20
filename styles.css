@@ -1,0 +1,135 @@
+*{
+
+    margin: 0;
+    padding: 0
+
+}
+
+body{
+
+    height: 200vh;
+
+    background-color: teal;
+
+}
+
+.container{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+
+    width: 335px;
+    height: 100px;
+
+    margin: 20px;
+
+}
+
+.rectangleButton{
+
+    display: none;
+
+    align-items: center;
+
+    position: absolute;
+
+    right: 35px;
+
+    width: 300px;
+    height: 60px;
+
+    background-color: brown;
+
+    padding: 20px;
+    padding-right: 50px;
+
+    box-sizing: border-box;
+
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+    color: white;
+
+    font-family: 'Century Gothic';
+    font-size: 11pt;
+
+}
+
+.bigButton{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+
+    position: absolute;
+
+    right: 5px;
+
+    background-color: white;
+
+    border-radius: 50%;
+
+    color: brown;
+
+    font-family: 'Century Gothic';
+    font-size: 25pt;
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.bigButton--hover{
+
+    background-color: brown;
+    color: white;
+
+}
+
+.smallButton{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+
+    top: 10px;
+    right: 0;
+
+    background-color: brown;
+
+    border-radius: 50%;
+
+    color: white;
+
+    font-family: 'Century Gothic';
+    font-size: 10pt;
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+.smallButton--hover{
+
+    background-color: white;
+
+    color: brown;
+
+}
