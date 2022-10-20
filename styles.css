@@ -88,6 +88,10 @@ body{
 
     cursor: pointer;
 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 
 .bigButton--hover{
@@ -123,6 +127,10 @@ body{
     font-weight: bold;
 
     cursor: pointer;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
 }
 
